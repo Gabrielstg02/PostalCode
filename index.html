@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Postal Code</title>
+</head>
+<body>
+    <div class="box">
+        <div class="judul" id="judul">
+            <h1>🗺️ INDONESIAN POSTAL CODE 🗺️</h1>
+        </div>
+        <div class="flex">
+            <form id="form">
+                <div class="divInput">
+                    <label class="judul">Select Province:</label>
+                    <select class="btn" id="prov" name="provinsi" required>
+                        <option value="" disabled selected>Select Province</option>
+                    </select>
+                    <label class="judul">Select District:</label>
+                    <select class="btn" id="kab" name="kabupaten" required>
+                        <option value="" disabled selected>Select District</option>
+                    </select>
+                    <label class="judul">Postal Code:</label>
+                    <input class="btn" id="cari" type="number" placeholder="Masukan kode pos">
+                </div>
+            </form>
+        </div>
+        <div class="result">
+        </div>
+    </div>
+    
+    <script type="module" src="main.js"></script>
+</body>
+</html>
